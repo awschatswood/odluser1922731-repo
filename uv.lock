@@ -1,0 +1,12 @@
+version = 1
+revision = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "cryptography"
+version = "42.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/...", hash = "sha256:...", size = 4600000 }
+
+[package.dependencies]
+cffi = [{ version = ">=1.12.0" }]
